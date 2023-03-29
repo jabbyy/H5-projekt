@@ -68,12 +68,6 @@
 
     private async void HandleValidSubmit()
     {
-        if(userInfo.UserEmail == UserEmail)
-        {
-            Error = "User info already exists...";
-        }
-        else
-        {
         try
         {
             userInfo.UserEmail = UserEmail;
@@ -90,6 +84,6 @@
         {
             string message = ex.Message;
         }
-        }
+        
     }
 }
