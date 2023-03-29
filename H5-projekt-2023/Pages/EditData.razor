@@ -58,14 +58,22 @@
 
     private async void HandleOnValidSubmit()
     {
-        if (Id != null)
+        try
         {
-            await _context.UpdateItem(Id.Value, user);
-            _navigationManager.NavigateTo("/");
+            if (Id != null)
+            {
+                await _context.UpdateItem(Id.Value, user);
+                _navigationManager.NavigateTo("/");
+            }
         }
-        
-    }
+        catch(Exception ex)
+        {
+            string message = ex.Message;
+        }
 
+
+
+    }
     
 
 }
