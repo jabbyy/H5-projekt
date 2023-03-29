@@ -84,3 +84,4 @@ C:\Users\Jeppe\source\repos\H5-projekt\H5-projekt-2023\obj\Debug\net7.0\refint\H
 C:\Users\Jeppe\source\repos\H5-projekt\H5-projekt-2023\obj\Debug\net7.0\H5-projekt-2023.pdb
 C:\Users\Jeppe\source\repos\H5-projekt\H5-projekt-2023\obj\Debug\net7.0\H5-projekt-2023.genruntimeconfig.cache
 C:\Users\Jeppe\source\repos\H5-projekt\H5-projekt-2023\obj\Debug\net7.0\ref\H5-projekt-2023.dll
+C:\Users\Jeppe\source\repos\H5-projekt\H5-projekt-2023\bin\Debug\net7.0\BCrypt.Net-Next.dll

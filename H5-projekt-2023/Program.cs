@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using H5_projekt_2023.models;
 using H5_projekt_2023.codes;
+using H5_projekt_2023.Repo;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +25,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
 builder.Services.AddScoped<UserInfo>();
 builder.Services.AddSingleton<EncryptionTest>();
+builder.Services.AddScoped<UserRepo>();
 builder.Services.AddAuthorization(options => // @attribute [Authorize(Policy = "RequireAuthUser")]
 {
     options.AddPolicy("RequireAuthUser", policy =>

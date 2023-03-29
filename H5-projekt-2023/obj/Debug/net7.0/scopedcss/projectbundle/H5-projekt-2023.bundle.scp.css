@@ -10,7 +10,8 @@ main[b-mp79lg2fb1] {
 }
 
 .sidebar[b-mp79lg2fb1] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    /*background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);*/
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #00FF00 70%);
 }
 
 .top-row[b-mp79lg2fb1] {
@@ -72,6 +73,7 @@ main[b-mp79lg2fb1] {
 /* _content/H5-projekt-2023/Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-ij0ln2xsky] {
     background-color: rgba(255, 255, 255, 0.1);
+    
 }
 
 .top-row[b-ij0ln2xsky] {
