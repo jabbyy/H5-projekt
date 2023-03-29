@@ -1,0 +1,71 @@
+﻿@page "/edit/{Id:int}"
+@using H5_projekt_2023.models;
+@inject NavigationManager _navigationManager;
+@inject codes.EncryptionTest _encryption;
+@inject Repo.UserRepo _context;
+@inject models.UserInfo _userinfo;
+
+
+<h3>Edit your user information</h3>
+
+
+
+<EditForm Model="@user" OnValidSubmit="@HandleOnValidSubmit" class="col-7 p-0">
+    <div class="form-group">
+        <label for="FirstName">First Name</label>
+        <InputText id="FirstName" @bind-Value="@user.FirstName" class="form-control" placeholder="FirstName" />
+    </div>
+    <div class="form-group">
+        <label for="LastName">Last Name</label>
+        <InputText id="FirstName" @bind-Value="@user.LastName" class="form-control" placeholder="Last name" />
+    </div>
+    <div class="form-group">
+        <label for="FirstName">City</label>
+        <InputText id="City" @bind-Value="@user.City" class="form-control" placeholder="City" />
+    </div>
+    <div class="form-group">
+        <label for="FirstName">Postal</label>
+        <InputNumber id="Postal" @bind-Value="@user.Postal" class="form-control" placeholder="Postal" />
+    </div>
+    <div class="form-group">
+        <label for="FirstName">Age</label>
+        <InputNumber id="Age" @bind-Value="@user.Age" class="form-control" placeholder="Age" />
+    </div>
+    <br />
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+
+
+</EditForm>
+
+
+@code {
+
+    public UserInfo user = new UserInfo();
+
+    [Parameter]
+    public int? Id { get; set; }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        if(Id != null)
+        {
+            user = await _context.getSingle(Id.Value);
+        }
+    }
+
+    private async void HandleOnValidSubmit()
+    {
+        if (Id != null)
+        {
+            await _context.UpdateItem(Id.Value, user);
+            _navigationManager.NavigateTo("/");
+        }
+        
+    }
+
+    
+
+}

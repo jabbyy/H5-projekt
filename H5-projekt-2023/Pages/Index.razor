@@ -6,20 +6,58 @@
 @page "/"
 
 <PageTitle>Index</PageTitle>
+@if(userInfoList != null)
+{
+@foreach (var item in userInfoList)
+{
+    <h1>Hello, @item.FirstName @item.LastName !</h1>
+    <h3>Your user information</h3>
+    <div>
+        <label>First name:</label>
+        <p>@item.FirstName</p>
+     </div>
+        <div>
+            <label>Last Name:</label>
+            <p>@item.LastName</p>
+        </div>
+        <div>
+            <label>City: </label>
+            <p>@item.City</p>
+        </div>
+        <div>
+            <label>Postal code: </label>
+            <p>@item.Postal</p>
+        </div>
+        <div>
+            <label>Age:</label>
+            <p>@item.Age</p>
+        </div>
 
-<h1>Hello, world!</h1>
+         <a class="btn btn-primary" href="/edit/@Id">Edit</a>
+        <button @onclick="() => DeleteInfo(item.Id)" type="button" class="btn btn-danger">Delete your info</button>
+
+
+}
+}
+
+
 
 
 @code{
+    [Parameter]
+    public int Id{ get; set; }
     public string UserEmail = "";
-    public List<UserInfo> userinfoList;
-
+    public List<UserInfo> userInfoList;
+    public string name = "";
     [CascadingParameter]
     private Task<AuthenticationState>? authenticationStateTask{ get; set; }
 
     protected override async Task OnInitializedAsync()
     {
 
+
+
+        userInfoList = new List<UserInfo>();
         var AuthState = await authenticationStateTask;
         var user = AuthState.User;
         if(user.Identity != null)
@@ -30,5 +68,38 @@
             }
         }
         UserEmail = user.Identity.Name;
+        await GetData();
+        SetId();
+
+    }
+
+    protected void SetId()
+    {
+        foreach(var item in userInfoList)
+        {
+            Id = item.Id;
+        }
+    }
+
+    public async Task GetData()
+    {
+        List<UserInfo> ItemList = await _context.getAll(UserEmail);
+        userInfoList = ItemList.Select(obj => new UserInfo
+            {
+                Id = obj.Id,
+                FirstName = obj.FirstName,
+                LastName = obj.LastName,
+                City = obj.City,
+                Postal = obj.Postal,
+                Age = obj.Age,
+
+
+    }).ToList();
+    }
+
+    public async Task DeleteInfo(int Id)
+    {
+        await _context.DeleteItem(Id);
+        _navigationManager.NavigateTo("/", true);
     }
 }
