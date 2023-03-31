@@ -3,9 +3,12 @@ Projekt for H5.
 Lavet af Jeppe Kreiberg Munk Marcussen. 
 
 Projektet er web applikation bygget i blazor webframeworket. 
-Skrivet i C#
-Designet i HTML
-Stylet i CSS og Bootstrap
+
+-Skrivet i C#
+
+-Designet i HTML
+
+-Stylet i CSS og Bootstrap
 
 For at bruge dette projekt skal have entity framework installeret i visual studio 2022 og man skal have .NET 7. 
 
