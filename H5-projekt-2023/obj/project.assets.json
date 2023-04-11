@@ -3952,23 +3952,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tec\\.nuget\\packages\\": {},
+    "C:\\Users\\jkmm\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tec\\Source\\Repos\\H5-projekt\\H5-projekt-2023\\H5-projekt-2023.csproj",
+      "projectUniqueName": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\H5-projekt-2023.csproj",
       "projectName": "H5-projekt-2023",
-      "projectPath": "C:\\Users\\Tec\\Source\\Repos\\H5-projekt\\H5-projekt-2023\\H5-projekt-2023.csproj",
-      "packagesPath": "C:\\Users\\Tec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tec\\Source\\Repos\\H5-projekt\\H5-projekt-2023\\obj\\",
+      "projectPath": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\H5-projekt-2023.csproj",
+      "packagesPath": "C:\\Users\\jkmm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jkmm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4040,7 +4040,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
