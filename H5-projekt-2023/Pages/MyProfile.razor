@@ -1,0 +1,117 @@
+﻿@inject H5_projekt_2023.Repo.UserRepo _context;
+@inject H5_projekt_2023.codes.EncryptionTest _encryption;
+@inject AuthenticationStateProvider GetAuthenticationStateAsync;
+@inject NavigationManager _navigationManager;
+@inject codes.EncryptionTest _encryption;
+@inject Repo.UserRepo _context;
+@inject models.UserInfo _userinfo;
+@using H5_projekt_2023.models;
+@page "/MyProfile"
+
+<PageTitle>My Profile</PageTitle>
+@if (userInfoList.Count == 0)
+{
+    <div class="container-sm">
+        <h2>Oh uhh....</h2>
+        <p>There seems to be nothing here...</p>
+        <button @onclick="@(()=>_navigationManager.NavigateTo("/CreateUserProfile"))" type="button" class="btn btn-primary">Create User Profile</button>
+    </div>
+}
+@if (userInfoList != null)
+{
+    @foreach (var item in userInfoList)
+    {
+        <h1>My Profile</h1>
+        <h3>Your user information</h3>
+        <div>
+            <label>First name:</label>
+            <p>@item.FirstName</p>
+        </div>
+        <div>
+            <label>Last Name:</label>
+            <p>@item.LastName</p>
+        </div>
+        <div>
+            <label>City: </label>
+            <p>@item.City</p>
+        </div>
+        <div>
+            <label>Postal code: </label>
+            <p>@item.Postal</p>
+        </div>
+        <div>
+            <label>Age:</label>
+            <p>@item.Age</p>
+        </div>
+
+        <a class="btn btn-primary" href="/edit/@Id">Edit</a>
+        <button @onclick="() => DeleteInfo(item.Id)" type="button" class="btn btn-danger">Delete your info</button>
+
+
+    }
+}
+
+
+
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    public string UserEmail = "";
+    public List<UserInfo> userInfoList;
+    public string name = "";
+    [CascadingParameter]
+    private Task<AuthenticationState>? authenticationStateTask { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+
+
+
+        userInfoList = new List<UserInfo>();
+        var AuthState = await authenticationStateTask;
+        var user = AuthState.User;
+        if (user.Identity != null)
+        {
+            if (!user.Identity.IsAuthenticated)
+            {
+                _navigationManager.NavigateTo("Identity/Account/Login");
+            }
+        }
+        UserEmail = user.Identity.Name;
+        await GetData();
+        SetId();
+
+    }
+
+    protected void SetId()
+    {
+        foreach (var item in userInfoList)
+        {
+            Id = item.Id;
+        }
+    }
+
+    public async Task GetData()
+    {
+        List<UserInfo> ItemList = await _context.getAll(UserEmail);
+        userInfoList = ItemList.Select(obj => new UserInfo
+            {
+                Id = obj.Id,
+                FirstName = obj.FirstName,
+                LastName = obj.LastName,
+                City = obj.City,
+                Postal = obj.Postal,
+                Age = obj.Age,
+
+
+            }).ToList();
+    }
+
+    public async Task DeleteInfo(int Id)
+    {
+        await _context.DeleteItem(Id);
+        _navigationManager.NavigateTo("/", true);
+    }
+}
