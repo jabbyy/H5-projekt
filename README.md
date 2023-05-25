@@ -2,6 +2,8 @@
 Projekt for H5. 
 Lavet af Jeppe Kreiberg Munk Marcussen. 
 
+Nye filer uploaded til dette projekt, er lavet i SKP. 
+
 Projektet er web applikation bygget i blazor webframeworket. 
 
 -Skrivet i C#
