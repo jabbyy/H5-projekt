@@ -9,61 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = H5_projekt_2023
 build_property.RootNamespace = H5_projekt_2023
-build_property.ProjectDir = C:\Users\jkmm\source\repos\H5-projekt\H5-projekt-2023\
+build_property.ProjectDir = C:\Users\jkmm\Documents\coding\repos\H5-projekt-2023\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jkmm\source\repos\H5-projekt\H5-projekt-2023
+build_property.MSBuildProjectDirectory = C:\Users\jkmm\Documents\coding\repos\H5-projekt-2023
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/App.razor]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/Pages/AddUserInfo.razor]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/Pages/AddUserInfo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVXNlckluZm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/Pages/EditData.razor]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/Pages/admin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/Pages/EditData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdERhdGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/Pages/Index.razor]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/Pages/MyProfile.razor]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/Pages/MyProfile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlQcm9maWxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/Shared/LoginDisplay.razor]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/_Imports.razor]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/Shared/MainLayout.razor]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-mp79lg2fb1
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/Shared/NavMenu.razor]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ij0ln2xsky
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/Areas/Identity/Pages/Account/LogOut.cshtml]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/Areas/Identity/Pages/Account/LogOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/Pages/Error.cshtml]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jkmm/source/repos/H5-projekt/H5-projekt-2023/Pages/_Host.cshtml]
+[C:/Users/jkmm/Documents/coding/repos/H5-projekt-2023/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

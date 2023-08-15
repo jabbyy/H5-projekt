@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i9BLsm3TYip/PYN7p1kpqDAdC+o7+EaMaMFF0pxqNO0=",
+  "Hash": "XxZF23MywL92whfcDScHSHuWhhiJFRyxMkFYSKz4NcI=",
   "Source": "H5-projekt-2023",
   "BasePath": "_content/H5-projekt-2023",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "H5-projekt-2023\\wwwroot",
       "Source": "H5-projekt-2023",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\jkmm\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.3\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\obj\\Debug\\net7.0\\scopedcss\\bundle\\H5-projekt-2023.styles.css",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\obj\\Debug\\net7.0\\scopedcss\\bundle\\H5-projekt-2023.styles.css",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "H5-projekt-2023.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\obj\\Debug\\net7.0\\scopedcss\\bundle\\H5-projekt-2023.styles.css"
+      "OriginalItemSpec": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\obj\\Debug\\net7.0\\scopedcss\\bundle\\H5-projekt-2023.styles.css"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\H5-projekt-2023.bundle.scp.css",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\H5-projekt-2023.bundle.scp.css",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "H5-projekt-2023.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\H5-projekt-2023.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\H5-projekt-2023.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\css\\site.css",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\favicon.png",
       "SourceId": "H5-projekt-2023",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jkmm\\source\\repos\\H5-projekt\\H5-projekt-2023\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jkmm\\Documents\\coding\\repos\\H5-projekt-2023\\wwwroot\\",
       "BasePath": "_content/H5-projekt-2023",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
